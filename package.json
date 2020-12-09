@@ -38,7 +38,6 @@
     "gulp-sourcemaps": "^3.0.0",
     "gulp-uglify-es": "^2.0.0",
     "gulp-webp": "^4.0.1",
-    "node-normalize-scss": "^8.1.2",
     "node-sass-tilde-importer": "^1.0.2",
     "webpack": "^4.41.2",
     "webpack-stream": "^5.2.1",
@@ -46,6 +45,9 @@
     "stylelint-config-htmlacademy": "0.1.x",
     "eslint": "4.16.0",
     "eslint-config-htmlacademy": "0.4.x"
+  },
+  "devDependencies": {
+    "node-normalize-scss": "^8.1.2"
   },
   "editorconfig-cli": [
     "*.json",
