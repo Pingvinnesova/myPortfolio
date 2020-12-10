@@ -1,5 +1,5 @@
 @import '~normalize.css/normalize';
-h1 {
-    color: rgb(41, 16, 100);
-    display: flex;
-}
+@import 'blocks/vars';
+@import 'blocks/mixins';
+@import 'blocks/fonts';
+@import 'blocks/global';

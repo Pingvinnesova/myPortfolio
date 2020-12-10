@@ -46,7 +46,7 @@
     "eslint": "4.16.0",
     "eslint-config-htmlacademy": "0.4.x"
   },
-  "devDependencies": {
+  "dependencies": {
     "node-normalize-scss": "^8.1.2"
   },
   "editorconfig-cli": [
