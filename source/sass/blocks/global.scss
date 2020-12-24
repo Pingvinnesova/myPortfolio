@@ -3,9 +3,10 @@ body {
     padding: 0;
     min-width: 320px;
     width: 100%;
-    font-family: "RobotoCondensedRegular", "Arial", sans-serif;
+    font-family: "Roboto-Regular", "Arial", sans-serif;
     font-size: 16px;
     background-color: #ffffff;
+    color: $dark-grey;
     scroll-behavior: smooth;
   }
   

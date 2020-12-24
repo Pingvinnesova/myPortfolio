@@ -1,0 +1,23 @@
+.main-screen {
+    width: 100%;
+    min-height: 800px;
+    background-color: white;
+    background-image: url("../images/bg1.svg");
+    background-repeat: no-repeat;
+    background-position: top 0 center;
+    // background-position: top 0 left -42em;
+    background-size: 2602px 815px;
+    // background-attachment: fixed;
+    overflow: hidden;
+    z-index: -2;
+}
+
+@media (max-width: $tablet-width) {
+    .main-screen {
+        min-height: 592px;
+        background-image: url("../images/bg2.svg");
+        background-size: 1200px 1246px;
+        background-position: bottom 0 center;
+    }
+}
+

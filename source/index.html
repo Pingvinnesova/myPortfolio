@@ -11,7 +11,6 @@
 <body class="no-js">
   <div class="main-screen">
 		<header class="header">
-			<div class="header__wrapper">
 				<nav class="header__nav nav">
 					<ul class="nav__list">
 						<li class="nav__item">
@@ -34,26 +33,72 @@
 						</li>
 					</ul>
 				</nav>
-				<a href="#" class="logo">Логотип</a>
-			</div>
+				<button class="header__toggle" type="button">
+					<span class="visually-hidden"></span>
+				</button>
+				<a href="#" class="header__logo logo">
+					<img src="images/fruttiweb.svg" width="133" height="37" alt="Логотип">
+				</a>
 		</header>
 
 		<section class="promo">
 			<div class="promo__content">
-				<h1>Заказать разработку сайта <span>под ключ</span></h1>
-				<p>Полный цикл разработки: <span>от прототипа до готового продукта</span></p>
-				<a href="#" class="scroll-to">Выбрать сайт</a>
+				<h1>Заказать разработку сайта-лендинга <span class="promo__style">под ключ</span></h1>
+				<p>Полный цикл разработки:</p>
+				<p>от прототипа до готового продукта</p>
+				<a href="#" class="scroll-to promo__button">Все услуги</a>
 				<ul class="promo__socials">
 					<li class="promo__social-item">
-						<a href="#">Viber</a>
+						<a class="promo__social-link" title="Мой вайбер" href="#">
+							<img src="images/viber.svg" width="30" height="30" alt="viber">
+							<span class="visually-hidden">Мой вайбер</span>
+						</a>
 					</li>
 					<li class="promo__social-item">
-						<a href="#">WhatsApp</a>
+						<a class="promo__social-link" title="Мой вотсап" href="#">
+							<img src="images/whatsapp.svg" width="30" height="30" alt="whatsapp">
+							<span class="visually-hidden">Мой вотсап</span>
+						</a>
 					</li>
 					<li class="promo__social-item">
-						<a href="#">Telegram</a>
+						<a class="promo__social-link" title="Мой телеграм" href="#">
+							<img src="images/telegram.svg" width="30" height="30" alt="telegram">
+							<span class="visually-hidden">Мой телеграм</span>
+						</a>
+					</li>
+					<li class="promo__social-item">
+						<a class="promo__social-link" title="Мой инстаграм" href="#">
+							<img src="images/insta.svg" width="30" height="30" alt="viber">
+							<span class="visually-hidden">Мой инстаграм</span>
+						</a>
+					</li>
+					<li class="promo__social-item">
+						<a class="promo__social-link" title="Мой Вконтакте" href="#">
+							<img src="images/vk.svg" width="30" height="30" alt="whatsapp">
+							<span class="visually-hidden">Мой Вконтакте</span>
+						</a>
+					</li>
+					<li class="promo__social-item">
+						<a class="promo__social-link" title="Мой фейсбук" href="#">
+							<img src="images/fb.svg" width="30" height="30" alt="facebook">
+							<span class="visually-hidden">Мой фейсбук</span>
+						</a>
 					</li>
 				</ul>
+			</div>
+			<div class="promo__images">
+				<div class="promo__image promo__image--notebook">
+					<picture>
+						<source media="(min-width: 1199px)" srcset="images/notebook-tablet.png">
+						<img src="images/notebook.png" width="676" height="670" alt="ноутбук">
+					</picture>
+				</div>
+				<div class="promo__image promo__image--phone">
+					<!-- <picture>
+						<source media="(min-width: 1199px)" srcset="images/phone-tablet.png"> -->
+						<img src="images/phone.png" width="170" height="121" alt="телефон">
+					<!-- </picture> -->
+				</div>
 			</div>
 		</section>
 	</div>
