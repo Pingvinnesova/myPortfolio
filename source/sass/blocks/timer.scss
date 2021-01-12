@@ -1,0 +1,37 @@
+.timer {
+    h4 {
+        margin: 0 0 5px 0;
+        font-family: "Gilroy", "Arial", sans-serif;
+        font-size: 18px;
+        line-height: 40px;
+        letter-spacing: 1px;
+        font-weight: 300;
+    }
+}
+
+.timer__container {
+    width: 280px;
+    display: flex;
+    @include list-reset;
+    justify-content: space-between;
+}
+
+.timer__block {
+    font-family: "Gilroy", "Arial", sans-serif;
+    font-size: 14px;
+    line-height: 30px;
+    letter-spacing: 1px;
+    font-weight: 300;
+
+    span {
+        color: #1a5ec9;
+        width: 60px;
+        height: 66px;
+        font-size: 32px;
+        line-height: 64px;
+        vertical-align: middle;
+        background-color: white;
+        border-radius: 10px;
+        margin: 0;
+    }
+}

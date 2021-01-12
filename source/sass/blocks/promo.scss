@@ -28,7 +28,8 @@
     text-transform: uppercase;
     color: inherit;
     margin: 0 0 40px;
-    font-family: "Gilroy-ExtraBold", "Arial", sans-serif;
+    font-family: "Gilroy", "Arial", sans-serif;
+    font-weight: 800;
     font-size: 38px;
     line-height: 60px;
     letter-spacing: 4px;
@@ -44,13 +45,15 @@
 }
 
 .promo__content p {
-    font-family: "Roboto-Regular", "Arial", sans-serif;
+    font-family: "Roboto", "Arial", sans-serif;
+    font-weight: 400;
     font-size: 18px;
     letter-spacing: 2px;
     margin: 0 0 10px;
 
     &:nth-of-type(2) {
-        font-family: "Roboto-Medium", "Arial", sans-serif;
+        font-family: "Roboto", "Arial", sans-serif;
+        font-weight: 500;
         margin: 0 0 50px;
     }
 }

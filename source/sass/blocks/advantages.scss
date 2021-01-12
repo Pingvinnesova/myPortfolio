@@ -1,0 +1,108 @@
+.advantages {
+    width: 1170px;
+    margin: 0 auto;
+    padding: 47px 30px 25px;
+    box-sizing: border-box;
+    display: flex;
+}
+
+.advantages__list,
+.advantages__list ul {
+    @include list-reset;
+}
+
+.advantages__description {
+    width: 475px;
+    padding-left: 35px;
+}
+
+.advantages__item--design .advantages__image {
+    width: 527px;
+    height: 434px;
+}
+
+.advantages__item {
+    width: 1110px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-bottom: 38px;
+
+    h3 {
+        font-family: "Gilroy", "Arial", sans-serif;
+        font-weight: 800;
+        font-size: 30px;
+        line-height: 48px;
+        letter-spacing: 3px;
+        text-transform: uppercase;
+        margin: 0 0 42px 0;
+    }
+
+    &:nth-child(even) {
+        .advantages__description {
+            order: 2;
+        }
+
+        .advantages__image {
+            order: 1;
+        }
+
+        // h3 {
+        //     text-align: center;
+        // }
+    }
+
+    li {
+        position: relative;
+        font-family: "Roboto", "Arial", sans-serif;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 22px;
+        letter-spacing: 2px;
+        width: 380px;
+        box-sizing: border-box;
+        padding: 0 0 0 38px;
+        margin-bottom: 15px;
+
+        &::before {
+            content: "";
+            position: absolute;
+            width: 22px;
+            height: 17px;
+            background-image: url("../images/check.svg");
+            background-repeat: no-repeat;
+            left: 0;
+            top: 5px;
+        }
+    }
+}
+
+.advantages__item--accessibility {
+    margin-bottom: 40px;
+
+    .advantages__description {
+        padding: 23px 0 0 0;
+    }
+}
+
+.advantages__item--adaptability {
+    margin-bottom: 109px;
+
+    .advantages__description {
+        padding: 50px 0 0 37px;
+    }
+
+    .advantages__image {
+        margin-right: -49px;
+    }
+}
+
+.advantages__item--marketing {
+    .advantages__description {
+        padding: 0;
+    }
+
+    .advantages__image {
+        margin-left: -49px;
+    }
+}

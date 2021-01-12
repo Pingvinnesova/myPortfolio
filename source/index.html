@@ -7,6 +7,7 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Создание сайтов-лендингов под ключ</title>
   <link rel="stylesheet" href="css/style.min.css">
+  <link rel="shortcut icon" href="favicon.png" type="image/png">
 </head>
 <body class="no-js">
   <div class="main-screen">
@@ -89,7 +90,7 @@
 			<div class="promo__images">
 				<div class="promo__image promo__image--notebook">
 					<picture>
-						<source media="(min-width: 1199px)" srcset="images/notebook-tablet.png">
+						<source media="(max-width: 1199px)" srcset="images/notebook-tablet.png">
 						<img src="images/notebook.png" width="676" height="670" alt="ноутбук">
 					</picture>
 				</div>
@@ -108,36 +109,56 @@
 			<h2 class="visually-hidden">Наши преимущества</h2>
 			<ul class="advantages__list">
 				<li class="advantages__item advantages__item--design">
-					<h3>Индивидуальный дизайн</h3>
-					<ul>
-						<li>комфортная для глаз цветовая гамма</li>
-						<li>читабельные шрифты</li>
-						<li>удобство восприятия, акценты и визуальный контраст</li>
-						<li>F и Z паттерны</li>
-						<li>дизайн с акцентом на конвертацию посетителей</li>
-					</ul>
+					<div class="advantages__description">
+						<h3>Индивидуальный дизайн</h3>
+						<ul>
+							<li>комфортная для глаз цветовая гамма</li>
+							<li>читабельные шрифты</li>
+							<li>удобство восприятия, акценты и визуальный контраст</li>
+							<li>F и Z паттерны</li>
+							<li>дизайн с акцентом на конвертацию посетителей</li>
+						</ul>
+					</div>
+					<div class="advantages__image">
+						<img src="images/adavantages-1.png" width="527" height="434" alt="дизайн">
+					</div>
 				</li>
 				<li class="advantages__item advantages__item--accessibility">
-					<h3>Продуманная структура и доступность</h3>
-					<ul>
-						<li>качественный и современный сайт</li>
-						<li>веб-доступность контента</li>
-						<li>интуитивный и понятный интерфейс</li>
-					</ul>
+					<div class="advantages__description">
+						<h3>Продуманная структура и доступность</h3>
+						<ul>
+							<li>качественный и современный сайт</li>
+							<li>веб-доступность контента</li>
+							<li>интуитивный и понятный интерфейс</li>
+						</ul>
+					</div>
+					<div class="advantages__image">
+						<img src="images/adavantages-2.png" width="554" height="424" alt="Продуманная структура и доступность">
+					</div>
 				</li>
 				<li class="advantages__item advantages__item--adaptability">
-					<h3>Адаптивность</h3>
-					<ul>
-						<li>создание удобства для пользователей сайта вне зависимости от используемого устройства</li>
-					</ul>
+					<div class="advantages__description">
+						<h3>Адаптивность</h3>
+						<ul>
+							<li>создание удобства для пользователей сайта вне зависимости от используемого устройства</li>
+						</ul>
+					</div>
+					<div class="advantages__image">
+						<img src="images/adavantages-3.png" width="578" height="443" alt="Адаптивность">
+					</div>
 				</li>
 				<li class="advantages__item advantages__item--marketing">
-					<h3>Маркетинговый аудит и первичная seo-оптимизация</h3>
-					<ul>
-						<li>оценка конкурентной среды</li>
-						<li>определение интересов целевой аудитории</li>
-						<li>on-page SEO-оптимизация</li>
-					</ul>
+					<div class="advantages__description">
+						<h3>Маркетинговый аудит и&nbsp;первичная seo-оптимизация</h3>
+						<ul>
+							<li>оценка конкурентной среды</li>
+							<li>определение интересов целевой аудитории</li>
+							<li>on-page SEO-оптимизация</li>
+						</ul>
+					</div>
+					<div class="advantages__image">
+						<img src="images/adavantages-4.png" width="575" height="455" alt="Маркетинговый аудит">
+					</div>
 				</li>
 			</ul>
 		</section>
@@ -159,7 +180,7 @@
 								<li>Адаптив для мобильных устройств</li>
 							</ul>
 							<p class="services__back-price">от 100$</p>
-							<button type="button">Узнать стоимость</button>
+							<button type="button" class="button">Узнать стоимость</button>
 						</div>
 					</li>
 					<li class="services__item services__item--full services__item--active">
@@ -179,7 +200,7 @@
 								<li>on-page SEO</li>
 							</ul>
 							<p class="services__back-price">от 250$</p>
-							<button type="button">Узнать стоимость</button>
+							<button type="button" class="button">Узнать стоимость</button>
 						</div>
 					</li>
 					<li class="services__item services__item--layout">
@@ -196,15 +217,15 @@
 								<li>on-page SEO</li>
 							</ul>
 							<p class="services__back-price">от 150$</p>
-							<button type="button">Узнать стоимость</button>
+							<button type="button" class="button">Узнать стоимость</button>
 						</div>
 					</li>
 				</ul>
 				<div class="advertising">
 					<h3>Новогодняя акция</h3>
-					<p>при заказе любого сайта рекламный баннер для соц.сетей <span>в подарок</span></p>
+					<p>при заказе любого сайта <strong>рекламный баннер</strong> для соц.сетей <span>в подарок</span></p>
 					<div class="advertising__timer timer">
-						<h3>До конца акции осталось:</h3>
+						<h4>До конца акции осталось:</h4>
 						<ul class="timer__container">
                     		<li class="timer__block">
                         		<span id="days">30</span>
@@ -225,7 +246,7 @@
                 		</ul>
 					</div>
 				</div>
-				<button type="button">Оставить заявку</button>
+				<button type="button" class="services__button button">Оставить заявку</button>
 			</div>
 		</section>
 
